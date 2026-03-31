@@ -1,0 +1,55 @@
+<svg width="760" height="760" viewBox="0 0 760 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wingLeft" x1="178" y1="113" x2="292" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD66B"/>
+      <stop offset="0.42" stop-color="#FF9300"/>
+      <stop offset="1" stop-color="#CF2E00"/>
+    </linearGradient>
+    <linearGradient id="wingRight" x1="582" y1="113" x2="468" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD66B"/>
+      <stop offset="0.42" stop-color="#FF9300"/>
+      <stop offset="1" stop-color="#CF2E00"/>
+    </linearGradient>
+    <linearGradient id="bodyGlow" x1="380" y1="152" x2="380" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE48B"/>
+      <stop offset="0.35" stop-color="#FFAC15"/>
+      <stop offset="0.72" stop-color="#FF6C00"/>
+      <stop offset="1" stop-color="#C93000"/>
+    </linearGradient>
+    <linearGradient id="waveBlue" x1="158" y1="423" x2="583" y2="534" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79E1FF"/>
+      <stop offset="0.48" stop-color="#27A9E8"/>
+      <stop offset="1" stop-color="#165E9F"/>
+    </linearGradient>
+    <linearGradient id="roofBlue" x1="291" y1="325" x2="469" y2="425" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#284A7C"/>
+      <stop offset="1" stop-color="#0C2340"/>
+    </linearGradient>
+    <filter id="shadow" x="94" y="86" width="572" height="461" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0C2340" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="760" height="760" fill="transparent"/>
+  <g filter="url(#shadow)">
+    <path d="M377 185C345 143 303 134 257 139C225 142 197 161 179 184C161 207 157 233 166 252C196 221 228 203 264 198C239 223 224 249 219 278C262 244 302 223 344 218C320 246 307 276 304 305C337 281 364 257 377 225C389 257 416 281 450 305C447 275 434 245 410 218C452 223 492 244 535 278C529 250 514 223 489 198C525 203 557 221 588 252C597 233 593 207 575 184C557 161 528 142 496 139C451 134 409 143 377 185Z" fill="url(#wingLeft)"/>
+    <path d="M377 185C409 143 451 134 497 139C529 142 557 161 575 184C593 207 597 233 588 252C557 221 525 203 489 198C514 223 529 249 535 278C492 244 452 223 410 218C434 246 447 276 450 305C417 281 390 257 377 225C365 257 338 281 304 305C307 275 320 245 344 218C302 223 262 244 219 278C224 249 239 223 264 198C228 203 196 221 166 252C157 233 161 207 179 184C197 161 225 142 257 139C303 134 345 143 377 185Z" fill="url(#wingRight)" opacity="0.93"/>
+    <path d="M409 202C421 188 438 183 456 187C443 193 435 204 432 216C444 214 456 216 466 223C449 228 436 237 428 251C403 258 388 249 381 239C389 222 397 211 409 202Z" fill="url(#bodyGlow)"/>
+    <circle cx="449" cy="204" r="4.5" fill="#0C2340"/>
+    <path d="M425 220C411 236 404 260 406 289C408 324 423 356 451 388C476 417 490 447 489 478C450 457 414 432 384 404C354 432 317 457 277 478C278 447 292 417 317 388C345 356 360 324 362 289C364 260 357 236 343 220C355 226 368 229 384 229C400 229 413 226 425 220Z" fill="url(#bodyGlow)"/>
+    <path d="M337 357L384 315L432 357V417H337V357Z" fill="#F7F9FC"/>
+    <path d="M307 357L384 296L462 357H436L384 316L332 357H307Z" fill="url(#roofBlue)"/>
+    <path d="M353 373H381V417H353V373Z" fill="#163154"/>
+    <path d="M386 373H415V398H386V373Z" fill="#163154"/>
+    <path d="M386 401H415V417H386V401Z" fill="#163154"/>
+    <path d="M161 470C234 420 331 411 453 443C543 467 597 468 630 454C596 494 551 514 498 517C432 521 358 498 287 491C236 486 191 490 153 505C166 490 168 479 161 470Z" fill="url(#waveBlue)"/>
+    <path d="M143 500C224 463 316 467 417 499C513 528 582 531 620 515C589 555 536 578 462 577C378 576 295 545 227 542C195 540 167 544 141 553C153 536 154 518 143 500Z" fill="#0F6DAF"/>
+    <path d="M149 446C225 399 328 391 453 423C515 439 569 443 612 434C577 459 530 467 472 466C404 464 331 443 263 441C218 440 181 444 149 446Z" fill="#92EBFF" opacity="0.95"/>
+  </g>
+  <text x="380" y="605" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700" letter-spacing="2">
+    <tspan fill="#0C2340">SECOND </tspan><tspan fill="#EF7D32">WIND</tspan>
+  </text>
+  <text x="380" y="660" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" fill="#223C67" letter-spacing="10">EXTERIORS</text>
+  <line x1="120" y1="678" x2="247" y2="678" stroke="#B3C1D8" stroke-width="2"/>
+  <line x1="513" y1="678" x2="640" y2="678" stroke="#B3C1D8" stroke-width="2"/>
+  <text x="380" y="725" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#405579" letter-spacing="5">GUTTER &amp; ROOF CLEANING</text>
+</svg>
